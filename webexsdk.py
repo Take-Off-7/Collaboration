@@ -37,12 +37,12 @@ for room in rooms:
 api.messages.create(roomId, text='Text created with Python SDK')
 
 ##### CLEANUP #####
-for room in rooms:
-    if getattr(room, 'title') == 'Python Room':
-        api.rooms.delete(getattr(room, 'id'))
+# for room in rooms:
+#     if getattr(room, 'title') == 'Python Room':
+#         api.rooms.delete(getattr(room, 'id'))
 
-for team in teams:
-    if getattr(team, 'name') == 'Python Team':
-        api.teams.delete(getattr(team, 'id'))
+# for team in teams:
+#     if getattr(team, 'name') == 'Python Team':
+#         api.teams.delete(getattr(team, 'id'))
 
 
