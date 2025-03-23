@@ -32,5 +32,3 @@ for user in users:
     print(f'{user['lastName']} {user['firstName']}')
     print(f'ID: {user['id']}')
     print('')
-
-
