@@ -20,7 +20,7 @@ body = {
 post_response = requests.post(
     url, headers=headers, data=json.dumps(body)
 ).json()
-print(post_response)
+# print(post_response)
 
 get_response = requests.get(url, headers=headers).json()
 # teamId = get_response['items'][0]['id']
@@ -60,4 +60,5 @@ msg_response = requests.post(
     msg_url, 
     headers=headers,
     data=json.dumps(msg_body)
-).json()
+)
+print(msg_response)
