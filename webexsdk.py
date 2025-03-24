@@ -1,7 +1,8 @@
 from webexteamssdk import WebexTeamsAPI
 
+# https://developer.webex.com/docs/getting-started --> To access the Your Personal Access Token
 api = WebexTeamsAPI(
-    access_token='MmU2ZDU1YmItN2RiNC00ZTgzLTgyZTktNTI0MjZlNzljMjhjNWNkMThhYWUtMGYx_P0A1_636b97a0-b0af-4297-b0e7-480dd517b3f9'
+    access_token='YTg0YjRkYTAtNjZiMi00MTk2LTk4YzItY2JjMjRlYzY1NzRmZTE3MzhlNGMtYTJm_P0A1_636b97a0-b0af-4297-b0e7-480dd517b3f9'
 )
 
 ##### GET TEAM INFO #####
