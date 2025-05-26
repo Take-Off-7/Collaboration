@@ -11,7 +11,7 @@ endpoint = 'servers'
 users_url = f'{url}/{endpoint}'
 
 username = 'administrator'
-pw = 'ciscopsdt'
+pw = #(password goes here)
 
 headers = {
     'Accept': 'application/xml',
