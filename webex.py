@@ -4,7 +4,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Get your token here after logging in : http://developer.webex.com/docs/api/getting-started
-token = 'NmNkNzI4YzktY2EyMi00NjRhLTlkMGUtYzQ5NjYyNzdkZGM0NTgxZGY5ZDctMTMy_P0A1_636b97a0-b0af-4297-b0e7-480dd517b3f9'
+token = #(token goes here)
 
 ### Create a Team ###
 url = 'https://api.ciscospark.com/v1/teams'
