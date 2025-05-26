@@ -16,7 +16,7 @@ headers = {
 }
 
 username = 'administrator'
-pw = 'ciscopsdt'
+pw = #(password goes here)
 
 r = requests.get(users_url, auth=(username, pw), verify=False)
 
